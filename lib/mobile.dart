@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class StackViwe extends StatelessWidget {
-  const StackViwe({key});
+class MobileView extends StatelessWidget {
+  const MobileView({key});
 
   @override
   Widget build(BuildContext context) {
