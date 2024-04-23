@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:responsive_ui/ResponsiveLayout.dart';
 import 'package:responsive_ui/desktop.dart';
 import 'package:responsive_ui/mobile.dart';
+import 'package:responsive_ui/randomSizes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(),
+      home: const MySizes(),
     );
   }
 }
