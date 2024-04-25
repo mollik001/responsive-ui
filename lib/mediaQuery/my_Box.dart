@@ -13,7 +13,7 @@ class MyBox extends StatelessWidget {
       height: mediaQuery.size.longestSide * 0.6,
       alignment: Alignment.center,
       color: Colors.grey[300],
-      //padding: EdgeInsets.only(left: 50, right: 50),
+      padding: const EdgeInsets.only(left: 10, right: 10),
       child: child,
     );
   }

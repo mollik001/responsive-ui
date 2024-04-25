@@ -12,7 +12,7 @@ class FirstMediaQuery extends StatelessWidget {
         child: MyBox(
           child: Expanded(
             child: Text(
-              'My father is protecting me.',
+              'My Box is protecting me.',
               style: TextStyle(color: Colors.black, fontSize: 20),
             ),
           ),
@@ -21,3 +21,24 @@ class FirstMediaQuery extends StatelessWidget {
     );
   }
 }
+
+
+
+//By using the screen width obtained from MediaQuery, the font size of the text widget will dynamically adjust based on the user's device size.
+// LayoutBuilder(
+//       builder: (BuildContext context, BoxConstraints constraints) {
+//         // Get the screen width from MediaQuery
+//         double screenWidth = MediaQuery.of(context).size.width;
+
+//         // Define the base font size
+//         double baseFontSize = 20.0;
+
+//         // Calculate the scaled font size based on the screen width
+//         double scaledFontSize = baseFontSize * screenWidth / 375; // 375 is the reference screen width
+
+//         return Text(
+//           'Hello, World!',
+//           style: TextStyle(fontSize: scaledFontSize),
+//         );
+//       },
+//     );

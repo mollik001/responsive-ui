@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:responsive_ui/ResponsiveLayout.dart';
 import 'package:responsive_ui/desktop.dart';
 import 'package:responsive_ui/mediaQuery/basic.dart';
+import 'package:responsive_ui/mediaQuery/loginPage/login_view.dart';
 import 'package:responsive_ui/mobile.dart';
 import 'package:responsive_ui/randomSizes.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const FirstMediaQuery(),
+      home: const LoginView(),
     );
   }
 }
